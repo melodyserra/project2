@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Canvas</title>
+	<link rel="stylesheet" type="text/css" href="canvas.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<div class="page-header">
+  <h1>VidDoodle <small>Doodle to your heart's content</small></h1>
+</div>
+<body>
+	<div class="video">
+	<video autoplay>
+		<source src="video2.mp4" type="video/mp4"></source>
+	</video>
+	</div>
+	<canvas id="drawCanvas">
+	</canvas>
+
+	<button type="button" class="btn btn-default" id="reset">Reset</button>
+
+	<script src="canvas.js"></script>
+</body>
+</html>
